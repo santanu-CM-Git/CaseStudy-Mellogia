@@ -1,5 +1,11 @@
 # Mellogia Case Study
 
+## Project Name
+
+Mellogia
+
+---
+
 ## Project Overview
 
 Mellogia is an all-in-one music and podcast streaming platform designed to create a personalized and immersive audio experience for users. The platform allows users to discover music across multiple genres and languages, follow favorite artists, stream podcasts, and receive content recommendations tailored to their interests.
@@ -10,150 +16,24 @@ By combining content discovery, personalization, AI-powered creation tools, and 
 
 ---
 
-## Our Approach
+## Problem
 
-### User-Centric Experience
+Music listeners and content creators often rely on multiple platforms for music streaming, podcast discovery, artist engagement, and content creation. Existing platforms may provide streaming services but often lack integrated tools for creators and personalized user experiences.
 
-- Designed a clean and intuitive interface for effortless navigation and content discovery.
-- Focused on delivering a seamless user journey from onboarding to streaming.
+Key challenges included:
 
-### Personalized Content Experience
+- Delivering personalized content recommendations
+- Managing large volumes of media content
+- Supporting creators with publishing workflows
+- Integrating AI-powered music generation
+- Maintaining smooth streaming experiences under different network conditions
+- Enabling seamless content discovery across multiple languages and genres
 
-- Built a customized onboarding process to capture user preferences.
-- Allowed users to select favorite genres, preferred languages, and favorite artists.
-
-### Creator-Focused Platform
-
-- Developed a dedicated artist onboarding and content publishing system.
-- Enabled creators to manage and publish music content easily.
-- Integrated AI-powered music generation for enhanced creativity.
-
-### Scalable Infrastructure
-
-- Built scalable backend architecture to support growing content libraries and active users.
-- Optimized streaming and storage performance for uninterrupted experiences.
-
-### Smooth Streaming Experience
-
-- Implemented efficient media delivery mechanisms for reliable audio playback.
-- Minimized buffering and improved performance under varying network conditions.
+A centralized ecosystem was required to connect listeners and creators while offering intelligent content delivery and AI-assisted creativity.
 
 ---
 
-## Key Features
-
-### Music Discovery & Streaming
-
-Users can:
-
-- Explore music across multiple genres
-- Discover new and trending artists
-- Stream songs anytime
-- Follow favorite artists
-
-### Personalized User Experience
-
-Recommendations are generated based on:
-
-- Favorite genres
-- Selected languages
-- Followed artists
-- Listening history and behavior
-
-### Secure Authentication
-
-Implemented secure authentication methods including:
-
-- Email registration with OTP verification
-- Google Sign-In
-- Apple Sign-In
-- Secure session management
-
-### Podcast Streaming
-
-Users can access:
-
-- Educational podcasts
-- Entertainment content
-- Stories and discussions
-- Audio content from creators
-
-### Artist Application System
-
-Users can apply to become artists directly within the platform.
-
-Approved artists can:
-
-- Upload original music
-- Create albums
-- Publish podcasts
-- Manage content
-
-### AI Song Creation
-
-Integrated AI-powered music generation using Suno API.
-
-Users and creators can:
-
-- Generate songs using AI-powered prompts
-- Create music across different genres and styles
-- Experiment with creative ideas instantly
-- Generate original content for publishing
-- Speed up music production workflows
-
-### Multi-Language Support
-
-Users can:
-
-- Explore music in multiple languages
-- Access diverse content
-- Customize language preferences
-
-### Notifications & User Engagement
-
-Implemented notifications for:
-
-- New music releases
-- Podcast updates
-- Artist activity
-- Personalized recommendations
-
----
-
-## Our Challenges
-
-### Streaming Performance
-
-Maintaining smooth playback and reducing buffering under different network conditions.
-
-### Personalized Recommendation Logic
-
-Building recommendation systems based on user preferences and listening patterns.
-
-### AI Music Generation Integration
-
-Integrating Suno API while ensuring:
-
-- Fast song generation
-- High-quality output
-- Smooth user experience
-- Efficient processing of generated media
-
-### Large Media Management
-
-Managing large volumes of audio content while maintaining performance and fast delivery.
-
-### Creator Workflow Management
-
-Building efficient onboarding and publishing workflows for artists.
-
-### Content Synchronization
-
-Ensuring newly uploaded music, podcasts, albums, and AI-generated songs are available instantly.
-
----
-
-## Technology Stack
+## Technology I Use
 
 ### Frontend
 
@@ -194,13 +74,103 @@ Ensuring newly uploaded music, podcasts, albums, and AI-generated songs are avai
 
 ---
 
+## Client
+
+**Mellogia – Music & Podcast Streaming Platform**
+
+---
+
+## Solution
+
+Developed a complete music and creator ecosystem that combines streaming, podcast experiences, AI-powered content generation, and artist management capabilities.
+
+### Implemented Features
+
+#### Music Discovery & Streaming
+
+Users can:
+
+- Explore music across multiple genres
+- Discover trending artists
+- Stream songs anytime
+- Follow favorite artists
+
+#### Personalized User Experience
+
+Recommendations are generated based on:
+
+- Favorite genres
+- Selected languages
+- Followed artists
+- Listening history and behavior
+
+#### Secure Authentication
+
+Implemented:
+
+- Email registration with OTP verification
+- Google Sign-In
+- Apple Sign-In
+- Secure session management
+
+#### Podcast Streaming
+
+Users can access:
+
+- Educational podcasts
+- Entertainment content
+- Stories and discussions
+- Audio content from creators
+
+#### Artist Application System
+
+Users can apply to become artists directly within the platform.
+
+Approved artists can:
+
+- Upload original music
+- Create albums
+- Publish podcasts
+- Manage content
+
+#### AI Song Creation
+
+Integrated AI-powered music generation using Suno API.
+
+Users and creators can:
+
+- Generate songs using AI prompts
+- Create music across various genres and styles
+- Experiment with creative ideas instantly
+- Generate original content for publishing
+- Speed up music production workflows
+
+#### Multi-Language Support
+
+Users can:
+
+- Explore music in multiple languages
+- Access diverse content
+- Customize language preferences
+
+#### Notifications & User Engagement
+
+Implemented notifications for:
+
+- New music releases
+- Podcast updates
+- Artist activity
+- Personalized recommendations
+
+---
+
 ## Analytics Implementation
 
-To understand user behavior and optimize content engagement, analytics tracking was implemented across major user activities.
-
-Tracked events include:
+To understand user behavior and optimize engagement, analytics tracking was implemented across major activities.
 
 ### User Activity
+
+Tracks:
 
 - User registration completed
 - Login completed
@@ -210,12 +180,16 @@ Tracked events include:
 
 ### Streaming Activity
 
+Tracks:
+
 - Song played
 - Podcast played
 - Album viewed
 - Playlist created
 
 ### AI Activity
+
+Tracks:
 
 - AI song generation initiated
 - Prompt submitted
@@ -225,41 +199,31 @@ Tracked events include:
 
 ### Artist Activity
 
+Tracks:
+
 - Artist application submitted
 - Music uploaded
 - Album created
 - Podcast published
 
-These insights helped improve recommendations, increase engagement, and optimize content experiences.
+These insights helped improve recommendations, optimize content delivery, and increase user engagement.
 
 ---
 
-## Impact
+## Result
 
-### Enhanced User Engagement
+- Increased user engagement through personalized recommendations and AI-powered experiences
 
-Personalized recommendations and AI-generated content significantly increased user interaction.
+- Improved content discovery across genres, artists, and languages
 
-### Improved Content Discovery
+- Empowered independent creators through publishing and AI-assisted creation tools
 
-Users discovered artists and content more efficiently.
+- Increased user retention through customized listening experiences
 
-### Creator Empowerment
+- Supported scalable growth for users and media content
 
-Independent artists gained powerful publishing and AI-assisted content creation tools.
+- Reduced content creation time through AI-generated music workflows
 
-### Better User Retention
-
-Personalized experiences and creator features improved platform engagement.
-
-### Scalable Media Platform
-
-The platform successfully supported growing users and increasing media content.
+- Delivered a complete ecosystem connecting listeners and creators through streaming, personalization, and AI innovation
 
 ---
-
-## Conclusion
-
-Mellogia transforms music and podcast streaming by combining intelligent personalization, AI-powered music generation, seamless audio experiences, and creator-focused tools into a unified platform.
-
-Through scalable architecture, secure authentication, and innovative AI capabilities, Mellogia provides an ecosystem where listeners discover meaningful content while creators can generate, publish, and grow their audience globally.
